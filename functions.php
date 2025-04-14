@@ -23,9 +23,9 @@ add_action( 'wp_enqueue_scripts', 'montreal_real_estate_theme_scripts' );
 function add_my_menus() {
     register_nav_menus(
     array(
-        'header-menu' => __( 'Header Menu', 'montreal-real-estate' ),
-        'footer-menu' => __( 'Footer Menu', 'montreal-real-estate' ),
-        'social-menu' => __( 'Social Menu', 'montreal-real-estate'),
+        'header-menu' => __( 'Header Menu', 'montreal-real-estate-melodie-martin' ),
+        'footer-menu' => __( 'Footer Menu', 'montreal-real-estate-melodie-martin' ),
+        'social-menu' => __( 'Social Menu', 'montreal-real-estate-melodie-martin'),
         // YOU CAN ADD AS MANY MENUS AS YOU WANT HERE
     )
     );

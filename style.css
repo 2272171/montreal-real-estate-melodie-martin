@@ -1,6 +1,6 @@
 /*
-  Theme Name: Montreal Real Estate
-  Author: Eric Girouard
+  Theme Name: Montreal Real Estate Melodie Martin
+  Author: Melodie Martin
   Author URI: https://www.graphicandwebdesign.ca
   Description: Student learning theme
   Version: 1.0
@@ -8,7 +8,7 @@
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
   Tested up to: 6.7
   Requires PHP: 7
-  Text Domain: montreal-real-estate
+  Text Domain: montreal-real-estate-melodie-martin
 
   This theme, like WordPress, is licensed under the GPL.
   Use it to make something cool, have fun, and share what you've learned with others.
@@ -99,8 +99,8 @@
     --accent-color: rgb(63, 77, 159);
     --highlight-color: #f3c;
   
-    --titles-font: "helvetica neue", helvetica, arial, sans-serif;
-    --bodytext-font: "helvetica neue", helvetica, arial, sans-serif;
+    --titles-font: "Oswald", sans-serif;
+    --bodytext-font: "Montserrat", sans-serif;
 
 
    --footerNav-bg-color: rgb(255, 255, 255);
