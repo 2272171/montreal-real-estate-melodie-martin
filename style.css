@@ -69,6 +69,10 @@
 
 /* COLOR PALETTE & FONTS VARIABLES  */
 
+@import url(css/mobile-nav.css);
+@import url(css/desktop-nav.css);
+@import url(css/contact.css);
+
 :root {
     --header-bg-color: rgb(255, 255, 255);
     --header-fg-color: rgb(1, 35, 70);
@@ -100,7 +104,7 @@
     --highlight-color: #f3c;
   
     --titles-font: "Oswald", sans-serif;
-    --bodytext-font: "Montserrat", sans-serif;
+    --bodytext-font: "Quicksand", sans-serif;
 
 
    --footerNav-bg-color: rgb(255, 255, 255);
@@ -112,17 +116,31 @@
   }
 
 
-   html, body {font-size: 100%;}
+   html, body {font-size: 100%;
+    }
 
 
   /* TYPESCALE for MOBILE 
     https://spencermortensen.com/articles/typographic-scale/  */
 
 
-  h1 { font-size: 2.5em; }
-  h2 { font-size: 2.1459em; }
-  h3 { font-size: 1.842em; }
-  h4 { font-size: 1.5811em; }
+  h1 { 
+    font-size: 2.5em;
+  margin: 2rem 0 1rem 0;
+  }
+  h2 {
+    font-size: 2.1459em;
+    line-height: 1.1;
+    margin: 2rem 0 1rem 0;
+  }
+  h3 {
+    font-size: 1.5em;
+    margin: 2rem 0 1rem 0;
+    line-height: 1.1;
+  }
+    h4 { 
+      font-size: 1.3em;
+     }
   h5 { font-size: 1.3572em; }
   h6 { font-size: 1.165em; }
   p { font-size: 1em; }
@@ -138,15 +156,15 @@
   
 
   body {
-    font-family: var(--bodytext-font);
+    font-family: "Quicksand", sans-serif ;
     color: var(--bodytext-color); 
     background-color: var(--main-bg-color);
   }
 
 
   h1,h2,h3,h4,h5,h6,label,legend {
-    font-family: var(--titles-font);
-    color: var(--titles-color);
+    font-family: "Oswald", sans-serif;
+    color: dark green;
   }
   
   
